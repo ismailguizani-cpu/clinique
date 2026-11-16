@@ -1,4 +1,8 @@
 <?php
+require_once=\config.php;
+require_once=\fonction.php;
+
+
 $patients = [
     ["id" => 1,  "nom" => "Benali Sara", "age" => 70,"code_service"=>"cardio","urgence"=>"rouge"],
     ["id" => 2,  "nom" => "Trabelsi Ahmed ", "age" => 45,"code_service"=>"derma","urgence"=>"orange"],
